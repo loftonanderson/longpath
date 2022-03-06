@@ -8,6 +8,4 @@ export class DashboardComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {}
-
-  // TODO: Fix footer
 }
