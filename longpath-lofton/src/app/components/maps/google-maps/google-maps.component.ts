@@ -43,6 +43,8 @@ export class GoogleMapsComponent implements OnInit {
     };
 
     map = new google.maps.Map(map, mapOptions);
+    const windows = [];
+    const markers = [];
 
     this.markerData.forEach(data => {
       const marker = new google.maps.Marker({
@@ -50,7 +52,8 @@ export class GoogleMapsComponent implements OnInit {
         map: map,
         animation: google.maps.Animation.DROP,
         title: data.city + ', ' + data.state,
-        open: false
+        open: false,
+        id: data.id
       });
 
       const infowindow = new google.maps.InfoWindow({
@@ -61,7 +64,17 @@ export class GoogleMapsComponent implements OnInit {
         </div>`,
       });
 
+      markers.push(marker);
+      windows.push(infowindow);
+
       google.maps.event.addListener(marker, "click", () => {
+        markers.forEach(m => {
+          if (marker.id !== m.id) {
+            m.open = false
+          }
+        });
+        windows.forEach(w => w.close());
+
         if (!marker.open) {
           marker.open = true;
           infowindow.open(map, marker);
