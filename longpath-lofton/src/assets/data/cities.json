@@ -1,0 +1,57 @@
+[
+    {
+        "id": "cary",
+        "city": "Cary",
+        "state": "North Carolina",
+        "county": "Wake",
+        "area": "59.94 sq mi (155.25 km2)",
+        "population": "174,721",
+        "description": "Located in the Piedmont region of the eastern United States, most of Cary is in western Wake County, with neighborhood-sized sections in the northeast corner of Chatham County. According to the 2020 U.S. Census, Cary has a total area of 58.7 square miles. Cary is bordered on the north and east by Raleigh, generally toward the north by Research Triangle Park and Morrisville, on the south by Apex and Holly Springs, and on the west by the Jordan Lake area.",
+        "lat": 35.791538,
+        "lng": -78.781120
+    },
+    {
+        "id": "elpaso",
+        "city": "El Paso",
+        "state": "Texas",
+        "county": "El Paso",
+        "area": "259.25 sq mi (671.46 km2)",
+        "population": "678,815",
+        "description": "El Paso is located at the intersection of three states (Texas, New Mexico, and Chihuahua) and two countries (the U.S. and Mexico). It is the only major Texas city on Mountain Time. Ciudad Juarez was once in Central Time,[45] but both cities are now on Mountain Time.",
+        "lat": 31.772543,
+        "lng": -106.460953
+    },
+    {
+        "id": "lascruces",
+        "city": "Las Cruces",
+        "state": "New Mexico",
+        "county": "Doña Ana",
+        "area": "77.03 sq mi (199.51 km2)",
+        "population": "111,385",
+        "description": "The settlement of Las Cruces was founded in 1849 when the US Army first surveyed the town, thus opening up the area for American settlement. The town was first surveyed as the result of the American acquisition of the land surrounding Las Cruces, which later became the New Mexico Territory. This land had been ceded to the United States as a result of the Treaty of Guadalupe Hidalgo of 1848, which ended the Mexican American War. The town was named, \"Las Cruces,\" after three crosses which were once located just north of the town.[7]",
+        "lat": 	32.346596,
+        "lng": -106.787720
+    },
+    {
+        "id": "shreveport",
+        "city": "Shreveport",
+        "state": "Louisiana",
+        "county": "Caddo Parish",
+        "area": "123.00 sq mi (318.58 km2)",
+        "population": "187,593",
+        "description": "Shreveport is located in Northwest Louisiana. It is the center of the Ark-La-Tex region where Arkansas, Louisiana, and Texas meet. It is also part of the I-20 Cyber Corridor linking the tech-centered Dallas–Fort Worth, Shreveport-Bossier, Greater Monroe, and Greater Atlanta metropolitan areas together. Shreveport is the parish seat of Caddo Parish. Portions of the city extend into neighboring Bossier Parish, bordering Bossier City. Shreveport sits on a low elevation overlooking the Red River.",
+        "lat": 	32.523659,
+        "lng": -93.763504
+    },
+    {
+        "id": "boulder",
+        "city": "Boulder",
+        "state": "Colorado",
+        "county": "Boulder",
+        "area": "27.366 sq mi (70.877 km2)",
+        "population": "108,250",
+        "description": "The city of Boulder is located in the Boulder Valley, where the Rocky Mountains meet the Great Plains. The Flatirons, slabs of sedimentary stone tilted up on the foothills, are located west of the city. The Flatirons are a widely recognized symbol of Boulder. Boulder Creek is the primary flow of water through Boulder. The creek was named prior to the city\"s founding, for all of the large granite boulders that have cascaded into the creek over the eons. It is from Boulder Creek that Boulder city is believed to have taken its name. Boulder Creek has significant water flow, derived primarily from snow melt and minor springs west of the city.",
+        "lat": 	40.014984,
+        "lng": -105.270546
+    }
+]
